@@ -1,7 +1,7 @@
 const { devices } = require('@playwright/test');
 
 // 테스트환경 지정
-const env = process.env.TEST_ENV || 'stage';
+const env = process.env.TEST_ENV || 'live';
 
 let baseURL;
 if (env === 'rc') {
@@ -18,15 +18,18 @@ if (env === 'rc') {
   throw new Error("baseURL이 설정되지 않았습니다.");
 }
 
+let baseServiceURL;
 if (env === 'rc') {
   baseServiceURL = 'https://rc-service.wadiz.kr/';
 } else if (env === 'rc2') {
   baseServiceURL = 'https://rc2-service.wadiz.kr/';
-}else if (env === 'rc3') {
+} else if (env === 'rc3') {
   baseServiceURL = 'https://rc3-service.wadiz.kr/';
-}
-// else if (env === 'stage'){
-//   baseServiceURL = '';
+} 
+// else if (env === 'stage') {
+//   baseServiceURL = 'https://service.wadiz.kr/';
+// } else if (env === 'live') {
+//   baseServiceURL = 'https://service.wadiz.kr/';
 // }
 
 module.exports = {

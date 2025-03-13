@@ -17,28 +17,28 @@ test('스토어 페이지: 카테고리 및 스토어 프로젝트 검증', asyn
     // 1. 카테고리 영역 검증
     // -----------------------------
 
-    // API 호출: 카테고리 데이터 가져오기
+    // 카테고리 API 데이터 json에 파싱싱
     const categoryResponse = await page.request.get("https://service.wadiz.kr/api/search/v3/categories/service-home?type=STORE");
     expect(categoryResponse.ok()).toBeTruthy();
     const categoryJson = await categoryResponse.json();
 
     // API 응답에서 카테고리 배열 추출 (이 부분을 추가)
     const categories = categoryJson.data;
-
     const categoryNames_api = categories.map(category => category.categoryName);
     console.log("카테고리 이름 배열:", categoryNames_api);
 
+    await page.waitForTimeout(1500);
+    
     // 'ServiceHomeCategory_tabsContent__5azSM' 컨테이너 내에 있는 모든 카테고리 이름 요소 선택
     const categoryElements = page.locator('.ServiceHomeCategory_tabsContent__5azSM .ImageTab_label__3DEjf');
     // 모든 요소의 텍스트를 배열 형태로 가져옴
     const renderedCategoryNames = await categoryElements.allTextContents();
     console.log("화면에 렌더링된 카테고리 이름들:", renderedCategoryNames);
 
-    // 화면의 카테고리 영역 내에 API의 각 카테고리 이름이 포함되어 있는지 확인
-    for (const category of categories) {
-        await expect(page.getByText(category.categoryName)).toBeVisible();
-    }
-
+    // API 데이터의 각 카테고리 이름이 화면에 포함되어 있는지 확인
+    for (const category_api of categoryNames_api) {
+        await expect(renderedCategoryNames).toContain(category_api);
+  }
 
     // -----------------------------
     // 2. 스토어 프로젝트 영역 검증
@@ -55,6 +55,7 @@ test('스토어 페이지: 카테고리 및 스토어 프로젝트 검증', asyn
           "categoryAndLabels": ["COLLECTION_musthave"]
         }
       });
+
     expect(storeResponse.ok()).toBeTruthy();
     const storeJson = await storeResponse.json();
 
