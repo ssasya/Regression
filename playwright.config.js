@@ -1,36 +1,11 @@
 const { devices } = require('@playwright/test');
 
-// 테스트환경 지정
-const env = process.env.TEST_ENV || 'live';
-
-let baseURL;
-if (env === 'rc') {
-  baseURL = 'https://rc.wadiz.kr/web/';
-} else if (env === 'rc2') {
-  baseURL = 'https://rc2.wadiz.kr/web/';
-} else if (env === 'rc3') {
-  baseURL = 'https://rc3.wadiz.kr/web/';
-} else if (env === 'stage') {
-  baseURL = 'https://stage.wadiz.kr/web/';
-} else if (env === 'live') {
-  baseURL = 'https://www.wadiz.kr/web/';
-} else {
-  throw new Error("baseURL이 설정되지 않았습니다.");
+// 테스트환경 지정bb
+let env = process.env.TEST_ENV || 'live';
+if (env === 'live'){
+  env = 'www';
 }
-
-let baseServiceURL;
-if (env === 'rc') {
-  baseServiceURL = 'https://rc-service.wadiz.kr/';
-} else if (env === 'rc2') {
-  baseServiceURL = 'https://rc2-service.wadiz.kr/';
-} else if (env === 'rc3') {
-  baseServiceURL = 'https://rc3-service.wadiz.kr/';
-} 
-// else if (env === 'stage') {
-//   baseServiceURL = 'https://service.wadiz.kr/';
-// } else if (env === 'live') {
-//   baseServiceURL = 'https://service.wadiz.kr/';
-// }
+let baseURL = `http://${env}.wadiz.kr/web/`
 
 module.exports = {
   globalSetup: require.resolve('./global-setup'),

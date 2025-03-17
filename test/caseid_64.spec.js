@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
-test('스토어 페이지: 카테고리 및 스토어 프로젝트 검증', async ({ page }) => {
-
+test('caseid_64 - 카테고리 및 스토어 프로젝트 검증', async ({ page,isMobile }) => {
+  if (isMobile){
     // Wadiz 메인 페이지로 이동
     await page.goto('/');
     await page.waitForLoadState('networkidle');
@@ -17,19 +17,19 @@ test('스토어 페이지: 카테고리 및 스토어 프로젝트 검증', asyn
     // 1. 카테고리 영역 검증
     // -----------------------------
 
-    // 카테고리 API 데이터 json에 파싱싱
+    // 카테고리 API 데이터 json에 파싱
     const categoryResponse = await page.request.get("https://service.wadiz.kr/api/search/v3/categories/service-home?type=STORE");
     expect(categoryResponse.ok()).toBeTruthy();
     const categoryJson = await categoryResponse.json();
 
-    // API 응답에서 카테고리 배열 추출 (이 부분을 추가)
+    // API 응답에서 카테고리 배열 추출
     const categories = categoryJson.data;
     const categoryNames_api = categories.map(category => category.categoryName);
     console.log("카테고리 이름 배열:", categoryNames_api);
 
     await page.waitForTimeout(1500);
     
-    // 'ServiceHomeCategory_tabsContent__5azSM' 컨테이너 내에 있는 모든 카테고리 이름 요소 선택
+    // 컨테이너 내에 있는 모든 카테고리 이름 요소 선택
     const categoryElements = page.locator('.ServiceHomeCategory_tabsContent__5azSM .ImageTab_label__3DEjf');
     // 모든 요소의 텍스트를 배열 형태로 가져옴
     const renderedCategoryNames = await categoryElements.allTextContents();
@@ -44,8 +44,8 @@ test('스토어 페이지: 카테고리 및 스토어 프로젝트 검증', asyn
     // 2. 스토어 프로젝트 영역 검증
     // -----------------------------
 
-    // API 호출: 스토어 프로젝트 데이터 가져오기
-    const storeResponse = await page.request.post("https://service.wadiz.kr/api/search/store", {
+    // API 호출하여 스토어 프로젝트 데이터 가져오기
+    const storeResponse = await page.request.post("/api/search/store", {
         data: {
           "startNum": 0,
           "limit": 48,
@@ -59,16 +59,15 @@ test('스토어 페이지: 카테고리 및 스토어 프로젝트 검증', asyn
     expect(storeResponse.ok()).toBeTruthy();
     const storeJson = await storeResponse.json();
 
-    // 스토어 프로젝트 배열은 storeJson.data.list에 존재합니다.
+    // API > 프로젝트 title consol에 출력
     const stores = storeJson.data.list;
-    // console.log("스토어 프로젝트 리스트: ", stores.title);
     stores.forEach(store => {
         console.log("프로젝트 이름: ", store.title);
     });
     
     for (const store of stores) {
-    // 각 store 객체의 title 프로퍼티와 화면의 텍스트를 비교합니다.
+    // 각 store 객체의 title  화면의 텍스트를 비교하여 화면에 잘 뿌려지는지 확인
     await expect(page.locator('.ServiceHomeCardList_container__2MI9A')).toContainText(store.title);
-}
-
+    }
+  }
 });
