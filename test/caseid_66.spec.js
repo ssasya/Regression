@@ -27,7 +27,7 @@ test('caseid_66 - 스토어 프로젝트 상세 노출 확인', async ({ page,is
 
     for (let i = 0; i < count; i++) {
     // 각 <p> 태그 내에 있는 <img> 태그의 개수를 확인
-    const imgCount = await paragraphs.nth(i).locator('img style').count();
+    const imgCount = await paragraphs.nth(i).locator('img').count();
     // img 태그가 하나 이상 있어야 함을 확인
     await expect(imgCount).toBeGreaterThan(0);
     }

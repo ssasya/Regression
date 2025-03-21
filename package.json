@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:mobile": "npx cross-env MOBILE=true npx playwright test --project=Mobile caseid_66.spec.js"
+    "mobile-setup": "npx cross-env MOBILE=true node global-setup.js",
+    "pc-setup": "cross-env MOBILE=false node global-setup.js",
+    "test:mobile": "npx cross-env MOBILE=true npx playwright test --project=Mobile"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   "homepage": "https://github.com/ssasya/playwrightTest#readme",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.50.1"
+    "@playwright/test": "^1.50.1",
+    "cross-env": "^7.0.3",
+    "playwright": "^1.51.0"
   }
 }

@@ -5,17 +5,17 @@
       "value": "6bkmheGp7UQIH9D7udNggY8cJ2Ix8XGmDWMGStKJEsU%3D.%7B%7D",
       "domain": ".analyticsgw.wadiz.kr",
       "path": "/events/4a62baad154a806348b2def3d3b19fa4ac6caeb642f0388ffe41eba49d97bcf8",
-      "expires": 1749994131.818097,
+      "expires": 1750083210.865571,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "_gid",
-      "value": "GA1.2.1382145172.1742218131",
+      "value": "GA1.2.2002024347.1742307210",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1742304536,
+      "expires": 1742393614,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,7 +25,7 @@
       "value": "1",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1742218190,
+      "expires": 1742307269,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -35,37 +35,37 @@
       "value": "1",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1742218190,
+      "expires": 1742307269,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_gcl_au",
-      "value": "1.1.391964445.1742218131",
+      "value": "1.1.69219942.1742307210",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1749994131,
+      "expires": 1750083210,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_waid",
-      "value": "wa2.0.240792273",
+      "value": "wa2.0.240907120",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1773754131.1162,
+      "expires": 1773843210.143935,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_wsid",
-      "value": "174221812637300810185495",
+      "value": "174230720468000810608185",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1742219931.116252,
+      "expires": 1742309010.143974,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -75,127 +75,127 @@
       "value": "CheckForPermission",
       "domain": ".doubleclick.net",
       "path": "/",
-      "expires": 1742219031.334517,
+      "expires": 1742308110.253845,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "_fbp",
-      "value": "fb.1.1742218131711.819797186530389552",
+      "value": "fb.1.1742307210659.312388894772329538",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1749994131,
+      "expires": 1750083210,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_fwb",
-      "value": "98X4ozVXWsW0nsd4a2fCns.1742218131744",
+      "value": "144MyLBvP8uW0eVlS57SBVx.1742307210685",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1776778131.744753,
+      "expires": 1776867210.686185,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "wcs_bt",
-      "value": "s_577200a05f81:1742218131",
+      "value": "s_577200a05f81:1742307210",
       "domain": "www.wadiz.kr",
       "path": "/",
-      "expires": 1776778131.753713,
+      "expires": 1776867210.695343,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "NWB",
-      "value": "7b7443935800eace9795d26129700cae.1742218127048",
+      "value": "d3b5ff541685741fc848385518c1540c.1742307205265",
       "domain": ".wcs.naver.com",
       "path": "/",
-      "expires": 1776778131.782849,
+      "expires": 1776867210.724715,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "NAC",
-      "value": "JhsGBgQ44Lf3B",
+      "value": "7V90Bgw5IxCr",
       "domain": ".naver.com",
       "path": "/",
-      "expires": 1776778131.821309,
+      "expires": 1776867210.747575,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "guest_id_marketing",
-      "value": "v1%3A174221812711344137",
+      "value": "v1%3A174230720535287190",
       "domain": ".twitter.com",
       "path": "/",
-      "expires": 1776778131.922349,
+      "expires": 1776867210.87783,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "guest_id_ads",
-      "value": "v1%3A174221812711344137",
+      "value": "v1%3A174230720535287190",
       "domain": ".twitter.com",
       "path": "/",
-      "expires": 1776778131.922393,
+      "expires": 1776867210.877855,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "personalization_id",
-      "value": "\"v1_3BzYwTiH8N8f8MtQdPlg+w==\"",
+      "value": "\"v1_aTufU+jB0bZL/FRw0tWoTg==\"",
       "domain": ".twitter.com",
       "path": "/",
-      "expires": 1776778131.922403,
+      "expires": 1776867210.877864,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "guest_id",
-      "value": "v1%3A174221812711344137",
+      "value": "v1%3A174230720535287190",
       "domain": ".twitter.com",
       "path": "/",
-      "expires": 1776778131.922411,
+      "expires": 1776867210.877872,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__cf_bm",
-      "value": "NxG_LwIlg05ZVeCWBJjeYv6yngeH440jkqBWaNyDLHw-1742218127-1.0.1.1-plOqhFTH6pkPt6Qa2ff9L0RwETPulgqnjNET0aUV56d_bMAnaptiZVzLKsEuJi4KvTl1zgPO8gyuDy9QZ5pCd8xdvdn4jFh8szjS_jam2H4",
+      "value": "RTjZXL.qaV.WwmrUAsdU26C6jvSQEtwEZJUZaY18TaI-1742307205-1.0.1.1-RoPmhc7dk0O2pgq4H8xgNRBz9i.feNdYIYsAa3d1om44U79WQHYOBIA0z3k.bMDP4Nwbi28CPh41sbpzasqM6rY.tX24uRCxQAbKD70mTzU",
       "domain": ".twitter.com",
       "path": "/",
-      "expires": 1742219931.922417,
+      "expires": 1742309010.877878,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "muc_ads",
-      "value": "d815391c-88ef-49a6-83a1-bcb1a67ee660",
+      "value": "62af46cc-62eb-43c4-a103-ecc86932ba3d",
       "domain": ".t.co",
       "path": "/",
-      "expires": 1776778132.005265,
+      "expires": 1776867210.958456,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__cf_bm",
-      "value": "eQp3BZeHh8au2WsZyIRDC50kHfVk3q3_Px4cfTzwAAI-1742218127-1.0.1.1-zMdFiQ1BBe6w3diZO5KoNa2GRPciV8vTTRU7e7kuGttSAKkfWVO_MM0q02TsQkHbAQMybNt8WHWHt.XBYeInz7Td7zrpIXpeJscsULVzkEI",
+      "value": "Ogwk0vuGdJu_YA0pYzqGPP4SaWYA4BFeMk8Huh6wwqg-1742307205-1.0.1.1-snBiL0gCKQE6wLRCUmO8kR_3KloCdjERSKObpydIlp9FK3XbLNdtqAU54hu5ggpjdjwGDCAy2N.KQiJliSQ8mStHEVI1by7Ygv3FFisDu1I",
       "domain": ".t.co",
       "path": "/",
-      "expires": 1742219932.005312,
+      "expires": 1742309010.9585,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -205,24 +205,24 @@
       "value": "Y",
       "domain": "www.wadiz.kr",
       "path": "/",
-      "expires": 1742304533,
+      "expires": 1742393612,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "WRMAT",
-      "value": "SiUyQnZiTElZREl0SmkyNXM4WlFrM3h3JTNEJTNEOlJDZElEUGphcnc2UkVaaFZVRkIxWGclM0QlM0Q",
+      "value": "eWtJdGslMkJrYVZQazdLWG51WXVZS2x3JTNEJTNEOnpTaHpvZVZlVTh6cUVrTSUyRm9YQWFOdyUzRCUzRA",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1744810135.068493,
+      "expires": 1744899213.994077,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "SESSION",
-      "value": "MjY1MTRmNWQtM2M2ZC00OWQ1LTg5ZDgtZDMyNTgyNWE2Yzhl",
+      "value": "YTE5ODBjNWEtMjMzYi00NjMxLThmNjYtYjU3MmZmODJkODQw",
       "domain": "account.wadiz.kr",
       "path": "/",
       "expires": -1,
@@ -232,7 +232,7 @@
     },
     {
       "name": "JSESSIONID",
-      "value": "AF9F06119804C81ED1E4101CE989B26E",
+      "value": "7767E36466D8F224E941FD66CA0839C4",
       "domain": "www.wadiz.kr",
       "path": "/",
       "expires": -1,
@@ -242,50 +242,50 @@
     },
     {
       "name": "ab.storage.deviceId.0c308381-846f-4726-ad61-23ea6add9f4e",
-      "value": "%7B%22g%22%3A%222be4379e-ee6a-372d-d9fc-ae38e4350fa7%22%2C%22c%22%3A1742218130442%2C%22l%22%3A1742218135857%7D",
+      "value": "%7B%22g%22%3A%22ecb2e9cd-c179-965a-663d-a8974639c7c2%22%2C%22c%22%3A1742307209408%2C%22l%22%3A1742307214706%7D",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1773775075,
+      "expires": 1773864154,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "ab.storage.userId.0c308381-846f-4726-ad61-23ea6add9f4e",
-      "value": "%7B%22g%22%3A%223728516%22%2C%22c%22%3A1742218135856%2C%22l%22%3A1742218135857%7D",
+      "value": "%7B%22g%22%3A%223728516%22%2C%22c%22%3A1742307214705%2C%22l%22%3A1742307214706%7D",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1773775075,
+      "expires": 1773864154,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga",
-      "value": "GA1.2.1750345565.1742218131",
+      "value": "GA1.2.1644112504.1742307210",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1776778136.148837,
+      "expires": 1776867214.948863,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga_J52ZXRWSBV",
-      "value": "GS1.1.1742218131.1.1.1742218136.0.0.0",
+      "value": "GS1.1.1742307210.1.1.1742307214.0.0.0",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1776778136.157923,
+      "expires": 1776867214.959612,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "ab.storage.sessionId.0c308381-846f-4726-ad61-23ea6add9f4e",
-      "value": "%7B%22g%22%3A%2258f9cb31-f89c-88b6-2106-0302c8936022%22%2C%22e%22%3A1742219936162%2C%22c%22%3A1742218135856%2C%22l%22%3A1742218136162%7D",
+      "value": "%7B%22g%22%3A%225371d4db-2812-3c6c-a567-4dbc21201f58%22%2C%22e%22%3A1742309014965%2C%22c%22%3A1742307214705%2C%22l%22%3A1742307214965%7D",
       "domain": ".wadiz.kr",
       "path": "/",
-      "expires": 1773775076,
+      "expires": 1773864154,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -297,7 +297,11 @@
       "localStorage": [
         {
           "name": "ab.storage.deviceId.0c308381-846f-4726-ad61-23ea6add9f4e",
-          "value": "{\"v\":{\"g\":\"2be4379e-ee6a-372d-d9fc-ae38e4350fa7\",\"c\":1742218130442,\"l\":1742218135857}}"
+          "value": "{\"v\":{\"g\":\"ecb2e9cd-c179-965a-663d-a8974639c7c2\",\"c\":1742307209408,\"l\":1742307214706}}"
+        },
+        {
+          "name": "ab.storage.triggers.0c308381-846f-4726-ad61-23ea6add9f4e",
+          "value": "{\"v\":[{\"i\":\"67d7c9f27c09cc0064ff23d9\",\"c\":[{\"t\":\"custom_event_property\",\"d\":{\"e\":\"preorder_detail_pv\",\"pf\":[[{\"k\":\"project_no\",\"t\":\"number\",\"c\":1,\"v\":339861}]]}}],\"s\":\"2025-03-17T15:00:00.000Z\",\"e\":\"2025-03-18T14:55:00.000Z\",\"p\":2003776000,\"t\":\"inapp\",\"da\":{\"message\":\"이호율님 서두르세요! 쿠폰 종료까지 0시간 46분 남았습니다\",\"click_action\":\"NONE\",\"open_target\":\"NONE\",\"type\":\"SLIDEUP\",\"text_align_message\":null,\"slide_from\":\"TOP\",\"message_close\":\"AUTO_DISMISS\",\"duration\":5000,\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/67d7c9f17c09cc0064ff23c7/406984bc27339bcf862f28186f7574775ecce354/original.jpg?1742195983\",\"close_btn_color\":4288387995,\"bg_color\":4294243575,\"text_color\":4280624421,\"trigger_id\":\"NjdkN2M5ZjI3YzA5Y2MwMDY0ZmYyM2Q5XyRfbXY9NjdkN2M5ZjE3YzA5Y2MwMDY0ZmYyM2NiJnBpPWNtcA==\"},\"d\":0,\"r\":60,\"tm\":30000,\"ld\":null},{\"i\":\"67d917faab71500065787555\",\"c\":[{\"t\":\"custom_event_property\",\"d\":{\"e\":\"preorder_detail_pv\",\"pf\":[[{\"k\":\"project_no\",\"t\":\"number\",\"c\":1,\"v\":334984}]]}}],\"s\":\"2025-03-18T15:00:00.000Z\",\"e\":\"2025-03-19T14:55:00.000Z\",\"p\":2003774000,\"t\":\"inapp\",\"da\":{\"message\":\"이호율님 서두르세요! 이벤트 종료까지 88시간 46분 남았습니다\",\"click_action\":\"NONE\",\"open_target\":\"NONE\",\"type\":\"SLIDEUP\",\"text_align_message\":null,\"slide_from\":\"TOP\",\"message_close\":\"AUTO_DISMISS\",\"duration\":5000,\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/67d917f9ab71500065787543/e8566fbdfcc244cc89993b77acc4569c1570063c/original.jpg?1742281132\",\"close_btn_color\":4288387995,\"bg_color\":4294243575,\"text_color\":4280624421,\"trigger_id\":\"NjdkOTE3ZmFhYjcxNTAwMDY1Nzg3NTU1XyRfbXY9NjdkOTE3ZjlhYjcxNTAwMDY1Nzg3NTQ3JnBpPWNtcA==\"},\"d\":0,\"r\":60,\"tm\":30000,\"ld\":null},{\"i\":\"6728981b40b3790063d0eed3\",\"c\":[{\"t\":\"custom_event\",\"d\":\"re_funding_studio_story_pv\"}],\"s\":\"2024-11-04T05:00:00.000Z\",\"e\":null,\"p\":2003973000,\"t\":\"inapp\",\"da\":{\"message\":\"\",\"click_action\":\"URI\",\"uri\":\"https://partnerzone.wadiz.kr/?utm_source=studio_reward_popup&utm_medium=story&utm_campaign=modal&&utm_content=image_01\",\"use_webview\":null,\"open_target\":\"BLANK\",\"type\":\"MODAL\",\"message_close\":\"SWIPE\",\"extras\":{\"event\":\"mc_main_pv\"},\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/6728981a40b3790063d0eeb8/e04a16cc57eda08fb4c4644dadef3f592c28bd78/original.jpg?1730714173\",\"image_style\":\"GRAPHIC\",\"close_btn_color\":4294967295,\"bg_color\":4294243575,\"frame_color\":3207803699,\"trigger_id\":\"NjcyODk4MWI0MGIzNzkwMDYzZDBlZWQzXyRfbXY9NjcyODk4MWE0MGIzNzkwMDYzZDBlZWMwJnBpPWNtcA==\"},\"d\":3,\"r\":6000,\"tm\":33000,\"ld\":null},{\"i\":\"67d9169e83f4b6006781ed1a\",\"c\":[{\"t\":\"custom_event_property\",\"d\":{\"e\":\"preorder_detail_pv\",\"pf\":[[{\"k\":\"project_no\",\"t\":\"number\",\"c\":1,\"v\":339579}]]}}],\"s\":\"2025-03-18T15:00:00.000Z\",\"e\":\"2025-03-19T14:55:00.000Z\",\"p\":2003775000,\"t\":\"inapp\",\"da\":{\"message\":\"이호율님 서두르세요! 프로젝트 종료까지 38시간 46분 남았습니다\",\"click_action\":\"NONE\",\"open_target\":\"NONE\",\"type\":\"SLIDEUP\",\"text_align_message\":null,\"slide_from\":\"TOP\",\"message_close\":\"AUTO_DISMISS\",\"duration\":5000,\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/67d9169e83f4b6006781ed08/89205a1f391a6d379cdb8c77c9411f159422618a/original.jpg?1742281491\",\"close_btn_color\":4288387995,\"bg_color\":4294243575,\"text_color\":4280624421,\"trigger_id\":\"NjdkOTE2OWU4M2Y0YjYwMDY3ODFlZDFhXyRfbXY9NjdkOTE2OWU4M2Y0YjYwMDY3ODFlZDBjJnBpPWNtcA==\"},\"d\":0,\"r\":60,\"tm\":30000,\"ld\":null},{\"i\":\"67c02f03f9bc99006115e362\",\"c\":[{\"t\":\"custom_event\",\"d\":\"business_pv\"}],\"s\":\"2025-02-28T00:30:00.000Z\",\"e\":\"2025-06-30T14:55:00.000Z\",\"p\":2004098000,\"t\":\"inapp\",\"da\":{\"message\":\"\",\"click_action\":\"URI\",\"uri\":\"https://www.youtube.com/playlist?list=PLUekHOpx5T6F-MLJNrbK58U4P8wtABCCd\",\"use_webview\":null,\"open_target\":\"BLANK\",\"type\":\"MODAL\",\"message_close\":\"SWIPE\",\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/67c02f03f9bc99006115e34b/ef0ab805dc4118e285f816818efaa3df33bb5597/original.jpg?1740648737\",\"image_style\":\"GRAPHIC\",\"close_btn_color\":4291085508,\"bg_color\":4294243575,\"frame_color\":3207803699,\"trigger_id\":\"NjdjMDJmMDNmOWJjOTkwMDYxMTVlMzYyXyRfbXY9NjdjMDJmMDNmOWJjOTkwMDYxMTVlMzUzJnBpPWNtcA==\"},\"d\":3,\"r\":259200,\"tm\":33000,\"ld\":null},{\"i\":\"67c030d95d198c006222d8e3\",\"c\":[{\"t\":\"custom_event\",\"d\":\"biz_target_main\"}],\"s\":\"2025-02-28T00:30:00.000Z\",\"e\":\"2025-06-30T14:55:00.000Z\",\"p\":2004099000,\"t\":\"inapp\",\"da\":{\"message\":\"\",\"click_action\":\"URI\",\"uri\":\"https://youtu.be/vRatflfnJWM?si=-h79LL4Tkf9dnqKh\",\"use_webview\":null,\"open_target\":\"BLANK\",\"type\":\"MODAL\",\"message_close\":\"SWIPE\",\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/67c030d95d198c006222d8cd/507341af1c1f6062d35f5e43ef8212f901e097ab/original.jpg?1740648890\",\"image_style\":\"GRAPHIC\",\"close_btn_color\":4291085508,\"bg_color\":4294243575,\"frame_color\":3207803699,\"trigger_id\":\"NjdjMDMwZDk1ZDE5OGMwMDYyMjJkOGUzXyRfbXY9NjdjMDMwZDk1ZDE5OGMwMDYyMjJkOGUxJnBpPWNtcA==\"},\"d\":3,\"r\":259200,\"tm\":33000,\"ld\":null},{\"i\":\"67c0323c5283f500618d78f1\",\"c\":[{\"t\":\"custom_event\",\"d\":\"business_display_step01_pv\"}],\"s\":\"2025-02-28T00:30:00.000Z\",\"e\":\"2025-06-30T14:55:00.000Z\",\"p\":2004100000,\"t\":\"inapp\",\"da\":{\"message\":\"\",\"click_action\":\"URI\",\"uri\":\"https://youtu.be/t1o0qDBMbjg?si=KwWUmA0JVBhu3ile\",\"use_webview\":null,\"open_target\":\"BLANK\",\"type\":\"MODAL\",\"message_close\":\"SWIPE\",\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/67c0323c5283f500618d78e1/862f6e5920e75739084a8830f58cddafa66911a3/original.jpg?1740649186\",\"image_style\":\"GRAPHIC\",\"close_btn_color\":4291085508,\"bg_color\":4294243575,\"frame_color\":3207803699,\"trigger_id\":\"NjdjMDMyM2M1MjgzZjUwMDYxOGQ3OGYxXyRfbXY9NjdjMDMyM2M1MjgzZjUwMDYxOGQ3OGU1JnBpPWNtcA==\"},\"d\":3,\"r\":259200,\"tm\":33000,\"ld\":null},{\"i\":\"67c032f7e8b92600625ee698\",\"c\":[{\"t\":\"custom_event\",\"d\":\"business_push_step01_pv\"}],\"s\":\"2025-02-28T00:30:00.000Z\",\"e\":\"2025-06-30T14:55:00.000Z\",\"p\":2004101000,\"t\":\"inapp\",\"da\":{\"message\":\"\",\"click_action\":\"URI\",\"uri\":\"https://youtu.be/8CsM4EdSImg?si=ulSCsrCuS-xsx5O0\",\"use_webview\":null,\"open_target\":\"BLANK\",\"type\":\"MODAL\",\"message_close\":\"SWIPE\",\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/67c032f7e8b92600625ee688/bf4fb787d29a9fcd027d405b616d3232317684ac/original.jpg?1740649335\",\"image_style\":\"GRAPHIC\",\"close_btn_color\":4291085508,\"bg_color\":4294243575,\"frame_color\":3207803699,\"trigger_id\":\"NjdjMDMyZjdlOGI5MjYwMDYyNWVlNjk4XyRfbXY9NjdjMDMyZjdlOGI5MjYwMDYyNWVlNjhjJnBpPWNtcA==\"},\"d\":3,\"r\":259200,\"tm\":33000,\"ld\":null},{\"i\":\"65d4549d6eb2aa004b7d92dd\",\"c\":[{\"t\":\"custom_event_property\",\"d\":{\"e\":\"language_translation\",\"pf\":[[{\"k\":\"language\",\"t\":\"string\",\"c\":1,\"v\":\"en\"},{\"k\":\"language\",\"t\":\"string\",\"c\":1,\"v\":\"ja\"},{\"k\":\"language\",\"t\":\"string\",\"c\":1,\"v\":\"zh\"},{\"k\":\"language\",\"t\":\"string\",\"c\":1,\"v\":\"es\"}]]}}],\"s\":\"2024-02-20T07:00:00.000Z\",\"e\":null,\"p\":2003500000,\"t\":\"templated_iam\",\"da\":{\"trigger_id\":\"NjVkNDU0OWQ2ZWIyYWEwMDRiN2Q5MmRkXyRfbXY9NjVkNDU0OWQ2ZWIyYWEwMDRiN2Q5MmNhJnBpPWNtcA==\",\"prefetch_image_urls\":[\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/65d4549d6eb2aa004b7d92c4/61ac76ea94d5f06c5539aaea85ad7603076d74a1/original.jpg?1708414115\"]},\"d\":0,\"r\":60,\"tm\":30000,\"ld\":null},{\"i\":\"6711bbb2063abd00645064a1\",\"c\":[{\"t\":\"custom_event\",\"d\":\"re_studio_storyedit_save\"}],\"s\":\"2024-05-01T15:00:00.000Z\",\"e\":null,\"p\":2003963000,\"t\":\"templated_iam\",\"da\":{\"trigger_id\":\"NjcxMWJiYjIwNjNhYmQwMDY0NTA2NGExXyRfbXY9NjcxMWJiYjIwNjNhYmQwMDY0NTA2NDkyJnBpPWNtcA==\",\"prefetch_image_urls\":[\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/6711bbb2063abd006450648e/582a0c3420aa33efae2ffe581d5abf3cdb17b0b5/original.png?1729215784\"]},\"d\":0,\"r\":86400,\"tm\":30000,\"ld\":null},{\"i\":\"678dba3bcf83d50063b9e342\",\"c\":[{\"t\":\"custom_event\",\"d\":\"project_registration_pv\"}],\"s\":\"2025-01-19T05:00:00.000Z\",\"e\":null,\"p\":2004005000,\"t\":\"inapp\",\"da\":{\"message\":\"\",\"click_action\":\"URI\",\"uri\":\"https://partnerzone.wadiz.kr/story/?utm_source=wadiz_popup&utm_medium=organic&utm_content=start-project\",\"use_webview\":null,\"open_target\":\"BLANK\",\"type\":\"MODAL\",\"message_close\":\"SWIPE\",\"image_url\":\"https://braze-images.com/appboy/communication/marketing/slide_up/slide_up_message_parameters/images/678dba3bcf83d50063b9e310/78a62d54c6c287e8bfefc6efc4927c8609542935/original.jpg?1737341505\",\"image_style\":\"GRAPHIC\",\"close_btn_color\":4291085508,\"bg_color\":4294243575,\"frame_color\":3207803699,\"trigger_id\":\"Njc4ZGJhM2JjZjgzZDUwMDYzYjllMzQyXyRfbXY9Njc4ZGJhM2JjZjgzZDUwMDYzYjllMzI3JnBpPWNtcA==\"},\"d\":3,\"r\":259200,\"tm\":33000,\"ld\":null}]}"
         },
         {
           "name": "WADIZ_MYMENU_INFO",
@@ -305,47 +309,51 @@
         },
         {
           "name": "ab.storage.triggers.ts.0c308381-846f-4726-ad61-23ea6add9f4e",
-          "value": "{\"v\":1742218131223}"
+          "value": "{\"v\":1742307215158}"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"creationTimeMs\":1742307214884},\"expires\":1750083214884}}"
         },
         {
           "name": "ab.storage.sessionId.0c308381-846f-4726-ad61-23ea6add9f4e",
-          "value": "{\"v\":{\"g\":\"58f9cb31-f89c-88b6-2106-0302c8936022\",\"e\":1742219936162,\"c\":1742218135856,\"l\":1742218136162}}"
+          "value": "{\"v\":{\"g\":\"5371d4db-2812-3c6c-a567-4dbc21201f58\",\"e\":1742309014965,\"c\":1742307214705,\"l\":1742307214965}}"
         },
         {
           "name": "NA_NACC",
-          "value": "JhsGBgQ44Lf3B"
+          "value": "7V90Bgw5IxCr"
         },
         {
           "name": "ONELINK_SETTING",
-          "value": "{\"lastFetchTime\":1742218131011,\"settings\":{\"isUseExclude\":true,\"excludeParams\":{\"pid\":[\"bizcenter\",\"fundingbiz\",\"storebiz\",\"mkt\",\"naver\",\"adbiz\"],\"utm_medium\":[\"cpc\"],\"utm_source\":[\"rw_app\",\"store_mkt_app\",\"mkt_app\",\"rw_mkt\",\"store_mkt\",\"mkt_mt\",\"mkt_naver\",\"rw_fb_insta\",\"rw_kakaomoment\",\"rw_twitter\",\"rw_google\",\"mkt_facebook\",\"mkt_twitter\",\"mkt_kakao\",\"mkt_google\"]},\"excludeKeys\":[\"_refer_section_st\",\"_ga\",\"utm_source\",\"utm_medium\",\"source_caller\",\"shortlink\",\"pid\",\"c\",\"deep_link_value\",\"af_force_deeplink\",\"isWadizApp\"],\"clearParams\":{\"utm_source\":[\"rw_\",\"mkt_\",\"_mkt\"]}}}"
+          "value": "{\"lastFetchTime\":1742307209982,\"settings\":{\"isUseExclude\":true,\"excludeParams\":{\"pid\":[\"bizcenter\",\"fundingbiz\",\"storebiz\",\"mkt\",\"naver\",\"adbiz\"],\"utm_medium\":[\"cpc\"],\"utm_source\":[\"rw_app\",\"store_mkt_app\",\"mkt_app\",\"rw_mkt\",\"store_mkt\",\"mkt_mt\",\"mkt_naver\",\"rw_fb_insta\",\"rw_kakaomoment\",\"rw_twitter\",\"rw_google\",\"mkt_facebook\",\"mkt_twitter\",\"mkt_kakao\",\"mkt_google\"]},\"excludeKeys\":[\"_refer_section_st\",\"_ga\",\"utm_source\",\"utm_medium\",\"source_caller\",\"shortlink\",\"pid\",\"c\",\"deep_link_value\",\"af_force_deeplink\",\"isWadizApp\"],\"clearParams\":{\"utm_source\":[\"rw_\",\"mkt_\",\"_mkt\"]}}}"
         },
         {
           "name": "NAC",
-          "value": "JhsGBgQ44Lf3B"
+          "value": "7V90Bgw5IxCr"
         },
         {
           "name": "GNB_BADGE_STATUS_COMMON",
-          "value": "[{\"menu\":\"따라잡기\",\"expireDateTime\":1742223599807,\"notificationBadgeLabel\":\"N\"}]"
+          "value": "[{\"menu\":\"따라잡기\",\"expireDateTime\":1742309999772,\"notificationBadgeLabel\":\"N\"}]"
         },
         {
           "name": "NACT",
-          "value": "1742218131822"
+          "value": "1742307210748"
         },
         {
           "name": "lastExternalReferrerTime",
-          "value": "1742218131703"
+          "value": "1742307210655"
         },
         {
           "name": "GNB_BADGE_STATUS_e6e5a5f918ead3694c287e2e5712c74f48df53eb",
-          "value": "[{\"menu\":\"따라잡기\",\"expireDateTime\":null,\"notificationBadgeLabel\":\"N\"}]"
+          "value": "[{\"menu\":\"따라잡기\",\"expireDateTime\":null,\"notificationBadgeLabel\":null},{\"menu\":\"위시\",\"expireDateTime\":1742309999151,\"notificationBadgeLabel\":4},{\"menu\":\"친구\",\"expireDateTime\":1742310815156,\"notificationBadgeLabel\":2}]"
         },
         {
           "name": "ab.storage.messagingSessionStart.0c308381-846f-4726-ad61-23ea6add9f4e",
-          "value": "{\"v\":1742218130442}"
+          "value": "{\"v\":1742307209407}"
         },
         {
           "name": "ab.storage.userId.0c308381-846f-4726-ad61-23ea6add9f4e",
-          "value": "{\"v\":{\"g\":\"3728516\",\"c\":1742218135856,\"l\":1742218135857}}"
+          "value": "{\"v\":{\"g\":\"3728516\",\"c\":1742307214705,\"l\":1742307214706}}"
         },
         {
           "name": "lastExternalReferrer",
@@ -354,6 +362,19 @@
         {
           "name": "ab.storage.serverConfig.0c308381-846f-4726-ad61-23ea6add9f4e",
           "value": "{\"v\":{\"s\":\"3.2.0\",\"l\":1739983153,\"e\":[\"club_event_cta_click_”dmuseum”\",\"event_cta_click_wadizday_Spring\",\"수신동의만들기\"],\"a\":[\"RFM Segmnet\",\"RF_Segment\",\"platform\"],\"p\":[],\"m\":21600,\"v\":\"BFL4ozkxzrVcHt42PzWhmDpvzbjqab3c3sHWPg0h9UaDYNfOTWHGOTh4fXOLGMHN4EMzqZlJNtrQO_cYJDaUzuU=\",\"c\":{}}}"
+        },
+        {
+          "name": "ab.storage.device.0c308381-846f-4726-ad61-23ea6add9f4e",
+          "value": "{\"v\":{\"browser\":\"Unknown Browser\",\"browser_version\":\"Unknown Version\",\"os_version\":\"iOS\",\"resolution\":\"390x844\",\"locale\":\"ko-kr\",\"time_zone\":\"Asia/Seoul\",\"user_agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1\"}}"
+        }
+      ]
+    },
+    {
+      "origin": "https://account.wadiz.kr",
+      "localStorage": [
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"creationTimeMs\":1742307213639},\"expires\":1750083213639}}"
         }
       ]
     }

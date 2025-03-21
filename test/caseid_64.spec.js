@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('caseid_64 - 카테고리 및 스토어 프로젝트 검증', async ({ page,isMobile }) => {
+test('caseid_64 - 스토어 : 스토어 홈 카테고리 및 스토어 프로젝트 노출 검증', async ({ page,isMobile }) => {
   if (isMobile){
     // Wadiz 메인 페이지로 이동
     await page.goto('/');
@@ -13,9 +13,9 @@ test('caseid_64 - 카테고리 및 스토어 프로젝트 검증', async ({ page
     
     await page.click('.MainShortCutItem_icon16__1mcb_');
     
-    // -----------------------------
-    // 1. 카테고리 영역 검증
-    // -----------------------------
+    // -----------------------
+    // 1. 카테고리 영역 검증 //
+    // -----------------------
 
     // 카테고리 API 데이터 json에 파싱
     const categoryResponse = await page.request.get("https://service.wadiz.kr/api/search/v3/categories/service-home?type=STORE");
@@ -41,7 +41,7 @@ test('caseid_64 - 카테고리 및 스토어 프로젝트 검증', async ({ page
   }
 
     // -----------------------------
-    // 2. 스토어 프로젝트 영역 검증
+    // 2. 스토어 프로젝트 영역 검증 //
     // -----------------------------
 
     // API 호출하여 스토어 프로젝트 데이터 가져오기

@@ -1,31 +1,29 @@
 const { test, expect } = require('@playwright/test');
 
-test('caseid_65 - 스토어 프로젝트 상세 진입', async ({ page,isMobile }) => {
+test('caseid_65 - 스토어 : 상세 페이지 진입', async ({ page,isMobile }) => {
   if (isMobile){
     await page.goto('store/main/COLLECTION_musthave');
     await page.locator('.TabsMobile_tabsWrapper__1vzEm [data-text="전체"]').click();
   
-    // -----------------------------
-    // 1. 스토어 홈 : 첫 번째 프로젝트 선택 후 상세 진입
-    // -----------------------------
+    // -------------------------------------------------
+    // 1. 스토어 홈 : 첫 번째 프로젝트 선택 후 상세 진입 //
+    // -------------------------------------------------
     await Promise.all([ //페이지 이동하여 API 로딩 대기
       page.waitForNavigation({ waitUntil: 'networkidle' }),
       page.locator('.HomeHorizontalCard_container__QBqLW').first().click()
     ]);
 
-    // -----------------------------
-    // 2. 스토어 상세 : 노출 정보 확인
-    // -----------------------------
+    // --------------------------------
+    // 2. 스토어 상세 : 노출 정보 확인 //
+    // --------------------------------
 
     // URL에서 스토어 프로젝트 번호 추출
-    const currentURL = page.url();
-    const regex = /\/detail\/(\d+)/;
-    const match = currentURL.match(regex);
-    let projectNum;
-
-    if (match && match[1]) {
-      projectNum = match[1];
+    const match = page.url().match(/\/detail\/(\d+)/);
+    if (!match) {
+      throw new Error('URL에 프로젝트 번호가 없습니다.');
     }
+    const [, projectNum] = match;
+
 
     // 프로젝트 정보 API 데이터 json에 파싱
     const storeProjectResponse = await page.request.get(`https://www.wadiz.kr/web/apip/store/projects/${projectNum}`);

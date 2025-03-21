@@ -10,13 +10,14 @@ let baseURL = `http://${env}.wadiz.kr/web/`
 module.exports = {
   globalSetup: require.resolve('./global-setup'),
   projects: [
-    {
+     {
       name: 'PC',
       use: {
         browserName: 'chromium',
-        headless: false,
+        headless: true,
         storageState: 'storageState.json',
         baseURL: baseURL,
+        env : env,
         // PC 웹 환경에 적합한 뷰포트 설정
         viewport: { width: 1280, height: 720 },
       },
@@ -28,6 +29,7 @@ module.exports = {
         headless: false,
         storageState: 'storageState.json',
         baseURL: baseURL,
+        env : env,
         // 페이지 내 viewport 설정
         viewport: { width: 390, height: 844 },
         isMobile: true,

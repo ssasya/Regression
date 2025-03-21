@@ -1,9 +1,10 @@
 const { chromium, expect } = require('@playwright/test');
 
 module.exports = async (config) => {
+
   // 환경 변수 MOBILE이 "true"면 Mobile 환경, 아니면 PC 환경으로 실행
-  const isMobile = process.env.MOBILE === 'true';
-  
+  const isMobile = process.env.MOBILE === 'true' ;
+
   // config.projects 배열에서 해당 환경의 설정을 찾습니다.
   const projectName = isMobile ? 'Mobile' : 'PC';
   console.log(projectName);
@@ -11,7 +12,6 @@ module.exports = async (config) => {
   if (!projectConfig) {
     throw new Error(`프로젝트 ${projectName} 설정을 찾을 수 없습니다.`);
   }
-  
   const baseURL = projectConfig.use.baseURL;
   
   // 환경에 맞게 브라우저 컨텍스트 옵션 설정
@@ -30,7 +30,7 @@ module.exports = async (config) => {
     };
   }
 
-  const browser = await chromium.launch({ headless: false, slowMo: 100 });
+  const browser = await chromium.launch({ headless: true, slowMo: 100 });
   const context = await browser.newContext(contextOptions);
   const page = await context.newPage();
 
@@ -41,10 +41,12 @@ module.exports = async (config) => {
   if (await page.isVisible('.DefaultBanner_inner__2ikD2')) {
     await page.click('.DefaultBanner_cancelIcon__1cQhn');
   }
-  
+    
   // 로그인 로직 수행
   await page.click('.MyWadizSupporterProfileCard_userName__3c32o');
   await page.click('.AuthForm_expandButton__2MaEa');
+
+  await page.waitForSelector('#email', { state: 'visible', timeout: 10000 }); // 요소가 보일 때까지 최대 10초 기다림
   await page.fill('#email', 'hoyul.lee+1@wadiz.kr'); // branch 생성 후 개인 계정으로 변경하여 사용
   await page.fill('#password', 'wadiz12!@'); // 동일
   await page.click('[data-test-id="loginSubmitButton"]');
